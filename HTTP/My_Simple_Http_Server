@@ -20,5 +20,5 @@ loop do
   socket.write "<H1>Hello from Ruby!</H1>"
   socket.write "</BODY></HTML>\n"
 
-  socket close
+  socket.close
 end
