@@ -1,4 +1,4 @@
-require_relative 'Time/my_simple_time_server'
+require_relative 'my_simple_time_server'
 
 
 time_server = MySimpleTimeServer.new
